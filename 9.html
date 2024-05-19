@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <body>
+            No 1:<input type="text" id="txt1"/><br/>
+            No 2:<input type="text" id="txt2"/><br/>
+            <button onclick="getContent()">click Me</button>
+            <p id="ans"></p>
+            <script>
+                function getContent()
+                {
+                    var x = document.getElementById("txt1");
+                    var y = document.getElementById("txt2");
+                    var a=x.value;
+                    var b =y.value;
+                    var c=parseInt(a)+parseInt(b);
+                    document.getElementById("ans").innerText="suum is "+c;
+                   
+                }
+            </script>
+        </body>
+    </head>
+</html>

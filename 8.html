@@ -1,0 +1,14 @@
+<html>
+<body>
+    <input type="text" id="txt1">
+    <button onclick="getContent()">Click here</button>
+    <p id="ans"></p>
+    <script>
+    function getContent() {
+    var x = document.getElementById("txt1");
+    var data = x.value;
+    document.getElementById("ans").innerText = data;
+    }
+</script>
+</body>
+</html>
